@@ -81,8 +81,8 @@ class Run:
 
         knn_output = knn_clf.predict(test_data)
         score = accuracy_score(test_labels, knn_output)
-        print '\nknn'
-        print score
+        # print '\nknn'
+        # print score
         return score
 
     def log_reg(self):
